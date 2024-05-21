@@ -42,7 +42,7 @@ io.on("connection", (socket) => {
     const timestamp = Date.now();
     const data = Math.floor(Math.random() * 200 + 10);
     socket.emit("data", { timestamp, data });
-  }, 5000); // Fetch alert data every 5 seconds
+  }, 2000); // Fetch alert data every 5 seconds
 
   socket.on("disconnect", () => {
     console.log("Client disconnected");
