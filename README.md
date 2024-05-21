@@ -53,7 +53,7 @@ The AI-powered Anomaly Detection System for IoT Networks is designed to monitor 
    ```
    npm start
    ```
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to access the anomaly detection system.
+5. Open [http://localhost:5173](http://localhost:5173) in your browser to access the anomaly detection system.
 
 ## How to Contribute
 
